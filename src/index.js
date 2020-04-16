@@ -1,7 +1,6 @@
 import express from 'express'
 
 let server = require('./server').default
-console.log('server', server)
 
 if (module.hot) {
   module.hot.accept('./server', function () {
